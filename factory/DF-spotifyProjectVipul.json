@@ -1,0 +1,9 @@
+{
+	"name": "DF-spotifyProjectVipul",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "345930f3-373e-43f5-bdde-87ca879b88dd",
+		"tenantId": "d4f4dc4d-c93f-4f45-8625-7f2943c43663"
+	}
+}
