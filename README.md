@@ -1,6 +1,6 @@
 # Spotify Azure Project
 
-##Multi-Table Incremental Ingestion Pipeline with Backfill Support and Post-Execution Alerts
+**Multi-Table Incremental Ingestion Pipeline with Backfill Support and Post-Execution Alerts**
 
 This pipeline facilitates metadata-driven incremental data ingestion from multiple Azure SQL tables into Azure Data Lake, with automatic CDC (Change Data Capture) watermark tracking for each table, optional historical backfilling, and post-run alert notifications.
 
@@ -44,6 +44,7 @@ Post-run alerting — sends operational visibility to outlook.
 
 Scalable — new tables onboarded by updating metadata configuration only
 
+Image Reference:
 
 <img width="617" height="239" alt="image" src="https://github.com/user-attachments/assets/fe08b291-6a48-42dd-bbcd-ff5354f5c183" />
 
