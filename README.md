@@ -1,5 +1,6 @@
 # spotifyAzureProject
 
+# handling Incremental Load and backfilling dynamically
 
 <img width="617" height="239" alt="image" src="https://github.com/user-attachments/assets/fe08b291-6a48-42dd-bbcd-ff5354f5c183" />
 
