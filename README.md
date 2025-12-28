@@ -20,9 +20,9 @@ Performs the data ingestion from Azure SQL to the Data Lake using the condition 
 **🔹If Condition** – IncrementalData
 Evaluates whether new rows were ingested:
 
-True: updates the CDC watermark to the most recent value found in the current batch
+  True: updates the CDC watermark to the most recent value found in the current batch
 
-False: retains the existing watermark, indicating no new data was detected.
+  False: retains the existing watermark, indicating no new data was detected.
 
 **🔹Backfill Support**
 The pipeline allows historical data backfilling by resetting the CDC watermark to an earlier timestamp or null value through metadata configuration. This enables controlled reprocessing of past data without modifying the pipeline structure.
