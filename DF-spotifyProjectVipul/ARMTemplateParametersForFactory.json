@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "DF-spotifyProjectVipul"
+		},
+		"DataLake_accountKey": {
+			"value": ""
+		},
+		"azureSQL_password": {
+			"value": ""
+		},
+		"DataLake_properties_typeProperties_url": {
+			"value": "https://spotifyazureproject.dfs.core.windows.net/"
+		},
+		"azureSQL_properties_typeProperties_server": {
+			"value": "vipulserver.database.windows.net"
+		},
+		"azureSQL_properties_typeProperties_database": {
+			"value": "spotifyDB"
+		},
+		"azureSQL_properties_typeProperties_userName": {
+			"value": "adminvipul"
+		}
+	}
+}
